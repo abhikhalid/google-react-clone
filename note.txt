@@ -1,0 +1,7 @@
+1. Context API 
+2. Material UI
+3. React Router
+4. Google Custom Search API
+5. Make our own custom hook with REACT
+6. Firebase to setup the app to connect to google.
+7. Use Firebase hosting to deploy the app
