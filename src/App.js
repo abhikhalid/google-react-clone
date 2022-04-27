@@ -1,4 +1,13 @@
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import './App.css';
+import Home from './Home';
+import SearchPage from "./SearchPage";
 
 function App() {
 
@@ -6,7 +15,19 @@ function App() {
     //BEM
     <div className="app">
 
-      <h1>Hello Clever Programmer! Let's Build Google Clone 🔥</h1>
+      <Router>
+        <Switch>
+          <Route path="/search">
+            <SearchPage/>
+
+          </Route>
+
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+
+      </Router>
 
     </div>
   );

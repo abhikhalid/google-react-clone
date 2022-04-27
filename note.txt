@@ -4,4 +4,45 @@
 4. Google Custom Search API
 5. Make our own custom hook with REACT
 6. Firebase to setup the app to connect to google.
-7. Use Firebase hosting to deploy the app
+7. Use Firebase hosting to deploy the app.
+
+-----------------------------------------------------------------------------------
+
+Custom Search API
+
+https://developers.google.com/custom-search/v1/using_rest
+
+now go to api key
+
+https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key
+
+
+Click on 'Get a Key' button
+
+now you can see 'Enable Custom Search API' option. select your previously created firebase project.
+
+now copy you API key and store it in a safe place.
+
+
+API KEY : 
+
+AIzaSyDkLs11nJEsKS69RNuCgrFSng7hnQgkWlI
+
+now, in order to use google search go to this link
+
+https://cse.google.com/cse/create/new
+
+On Sites to Search bar
+
+type 'www.google.com'
+
+then click 'CREATE' button.
+
+Now, on the left panel click on 'Edit search engine' -> setup
+
+Now, Scroll down and find 'Search the entire web' and toggle to on it.
+
+Now, scroll up and find 'Search engine id'
+and copy it.
+
+3db718a6f7bab68c4
