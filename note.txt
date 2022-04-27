@@ -6,6 +6,8 @@
 6. Firebase to setup the app to connect to google.
 7. Use Firebase hosting to deploy the app.
 
+Hosting URL: https://react-clone-62981.web.app
+
 -----------------------------------------------------------------------------------
 
 Custom Search API
@@ -44,5 +46,6 @@ Now, Scroll down and find 'Search the entire web' and toggle to on it.
 
 Now, scroll up and find 'Search engine id'
 and copy it.
+
 
 3db718a6f7bab68c4
